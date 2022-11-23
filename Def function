@@ -1,0 +1,175 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMcOzPQsJp9ZUF3odW4Gqfe",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Ihsaniya/Python-Basics/blob/main/Def%20function\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "a1VoiDErssZY"
+      },
+      "outputs": [],
+      "source": [
+        "def fun_name():\n",
+        "  print(\"Hello World\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fun_name()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jwTYkfbPuFFN",
+        "outputId": "b6baa0d0-931a-42cb-a849-62eeaa33651c"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello World\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "year=\"2022\"\n",
+        "message=\"Fifa world cup\"+\" \"+year\n",
+        "print(message)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ir1eGUuQvLZP",
+        "outputId": "61b39d3a-1235-4928-fde2-69847ecee0e5"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Fifa world cup 2022\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Using function\n",
+        "def fun_name():\n",
+        "  print(\"Fifa world cup 2022\")"
+      ],
+      "metadata": {
+        "id": "SjlXN1L_voil"
+      },
+      "execution_count": 7,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fun_name()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "g6Liqp4qv9cm",
+        "outputId": "d089a5da-f6d9-47b2-b205-efd9e264da76"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Fifa world cup 2022\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def fun_name(x1,x2,x3):\n",
+        "  print('the first person is:'  ,x1)\n",
+        "xx=\"ali binth \"\n",
+        "fun_name(x3=xx,x2='ibrahim',x1='ihsaniya')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lGY1i_3DwAnG",
+        "outputId": "24f6796e-5b64-47b2-baa8-5dc9808028bd"
+      },
+      "execution_count": 28,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "the first person is: ihsaniya\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def fun_name(x1,x2,x3):\n",
+        "  print('the second person is:' ,x2)\n",
+        "  xx=\"ali binth\"\n",
+        "  fun_name(x3=xx,x2='ibrahim',x1='ihsaniya')"
+      ],
+      "metadata": {
+        "id": "MehrSb0rxRg1"
+      },
+      "execution_count": 29,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "gBKe21kO0Yj5"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
